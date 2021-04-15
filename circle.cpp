@@ -7,9 +7,13 @@ using namespace std;
 int main()
 {
 	double radius;
-	cout << "Enter radius\n";
+	cout << "Enter radius: ";
 	//Add code to read user input and store in variable radius
-	cout << "The area of a circle with radius \n";
+    cin >> radius;
 	//Calculate the area of the circle
+    double a;
+    a = 3.14*(radius*radius);
+	cout << "The area of a circle with radius " << radius << " is: " << a << endl;
+    
 	return 0;
 }
